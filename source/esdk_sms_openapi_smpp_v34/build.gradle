@@ -1,0 +1,10 @@
+
+ext.zipFileName = 'esdksvr_sms_open_api_smpp'
+
+addDependentProject(project, "compile", "esdk_platform_common")
+addDependentProject(project, "compile", "esdk_platform_interface")
+addDependentProject(project, "compile", "esdk_sms_base")
+
+dependencies {
+	compile ':log4j:1.2.16'
+}

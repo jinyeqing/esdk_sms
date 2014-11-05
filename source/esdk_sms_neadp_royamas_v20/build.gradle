@@ -1,0 +1,10 @@
+ext.zipFileName = 'esdksvr_sms_neadp_royamas_v20'
+
+addDependentProject(project, "compile", "esdk_platform_common")
+addDependentProject(project, "compile", "esdk_platform_interface")
+addDependentProject(project, "compile", "esdk_sms_base")
+addDependentProject(project, "compile", "esdk_sms_neadp_interface")
+
+dependencies {
+	compile ':log4j:1.2.16'
+}

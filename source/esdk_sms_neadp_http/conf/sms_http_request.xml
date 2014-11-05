@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<MongateCsSpSendSmsNew xmlns="http://tempuri.org/">
+			<UserId>@{userName}</UserId>
+			<Password>@{userpwd}</Password>
+			<PszMobis>@{reciverAsCVS}</PszMobis>
+			<PszMsg>@{SMSContent}</PszMsg>
+			<iMobiCount>@{reciversCount}</iMobiCount>
+			<PszSubPort>*</PszSubPort>
+		</MongateCsSpSendSmsNew>
+	</soapenv:Body>
+</soapenv:Envelope>

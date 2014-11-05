@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxys>
+	<deviceProxy>
+		<className>com.huawei.esdk.sms.device.smgp.SMSAdapterDeviceSMGP</className>
+		<deviceType>SMSSMGP</deviceType>
+		<startVersion></startVersion>
+		<endVersion></endVersion>
+	</deviceProxy>
+</proxys>

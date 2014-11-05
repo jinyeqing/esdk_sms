@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxys>
+	<deviceProxy>
+		<className>com.huawei.esdk.sms.device.mas20.SMSAdapterDeviceMAS20</className>
+		<deviceType>RoyaMAS</deviceType>
+		<startVersion>V20</startVersion>
+		<endVersion></endVersion>
+	</deviceProxy>
+</proxys>

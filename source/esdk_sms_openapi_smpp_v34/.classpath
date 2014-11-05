@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_21"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/esdk_platform_common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/esdk_platform_interface"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/esdk_sms_base"/>
+	<classpathentry kind="lib" path="D:/01_RD/01_eSDK/01_source/eSDK_solution_V100R003/eSDK_Platform_V100R003/trunk/Server/open_src/log4j-1.2.16.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
